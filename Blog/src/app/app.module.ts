@@ -4,9 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
+import { MatMenuModule } from '@angular/material/menu';
+import {MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -16,10 +17,9 @@ import { MatButtonModule } from '@angular/material/button';
   imports: [
     BrowserModule,
     MatToolbarModule,
-    MatMenuModule,
     MatIconModule,
+    MatMenuModule,
     MatButtonModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
