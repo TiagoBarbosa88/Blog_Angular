@@ -11,7 +11,9 @@ describe('NewPostCardComponent', () => {
       declarations: [ NewPostCardComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(NewPostCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -11,7 +11,9 @@ describe('NewPostFormComponent', () => {
       declarations: [ NewPostFormComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(NewPostFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
